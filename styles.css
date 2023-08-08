@@ -1,0 +1,43 @@
+/* Estilos personalizados para a página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.card {
+    height: 100%; /* Definindo uma altura de 100% para as cartas */
+}
+
+.card-img-top {
+    object-fit: cover; /* Faz com que a imagem da carta ocupe todo o espaço */
+    height: 200px; /* Defina a altura desejada para a imagem */
+}
+
+.card-body {
+    height: calc(100% - 200px); /* Calculando o espaço restante para o corpo da carta */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Adicione mais estilos conforme necessário */
